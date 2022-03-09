@@ -1,0 +1,32 @@
+{
+  "name": "web_tube",
+  "version": "1.0.0",
+  "description": "The best wat to watch videos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangbm/web_tube2022.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node src/server.js"
+  },
+  "author": "rorine_dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangbm/web_tube2022/issues"
+  },
+  "homepage": "https://github.com/jangbm/web_tube2022#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nodemodule": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.15"
+  }
+}
