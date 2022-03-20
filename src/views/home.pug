@@ -1,8 +1,10 @@
 extends base.pug
 include mixins/video
 
-block content 
-    h2 여기에 멋진 비디오가 있어요
 
+
+block content 
     each video in videos
         +video(video)
+    else 
+        li Sorry nothing found.
